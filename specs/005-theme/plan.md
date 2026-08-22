@@ -3,7 +3,7 @@
 > 模块：005-theme
 > 状态：实现中
 > 最后更新：2026-08-18
-> 参考：父工程 specs/005-theme/plan.md §4.4、var.md §7/§9、resources/{base,dark}/element/color.json
+> 参考：父工程 specs/005-theme/plan.md §4.4、var.md §6/§9、resources/{base,dark}/element/color.json
 
 ---
 
@@ -65,13 +65,13 @@
 ```
 products/default/src/main/resources/
 ├── base/element/color.json      # 亮色（default）：核心品牌色/中性色/扩展色 + start_window_background
-└── dark/element/color.json      # 暗色变体：同名变量的 dark 取值（var.md §7）
+└── dark/element/color.json      # 暗色变体：同名变量的 dark 取值（var.md §6）
 ```
 
 要点：
 
 - `base/` 为默认资源目录（亮色），`dark/` 为深色限定目录；颜色模式为暗色时 `$r('app.color.color_bg')` 自动解析 `dark/` 值，其余回退 `base`。
-- 资源 `name` 遵循 var.md §9：`--color-primary` → `color_primary`（`--` 去除、`-`→`_`）。
+- 资源 `name` 遵循 var.md §8：`--color-primary` → `color_primary`（`--` 去除、`-`→`_`）。
 - `base/element/color.json` 合并而非覆盖，保留既有 `start_window_background`。
 
 ### 3.2 颜色变量映射（核心品牌色/中性色/扩展色）
@@ -92,7 +92,7 @@ products/default/src/main/resources/
 | `--color-placeholder` | `color_placeholder` | `#B0ADA8` | `#B0ADA8` |
 | `--color-divider` | `color_divider` | `#F0ECE6` | `#2E3033` |
 
-> `wechat`/`placeholder`/`divider` 为扩展色（var.md §6），其暗色值 var.md §7 未锁定，本工程取「品牌绿保持、placeholder 保持、divider 取 Frost 暗色近似值」并记录为假设，后续视觉 QA 定稿。
+> `wechat`/`placeholder`/`divider` 为扩展色（var.md §5），其暗色值 var.md §6 未锁定，本工程取「品牌绿保持、placeholder 保持、divider 取 Frost 暗色近似值」并记录为假设，后续视觉 QA 定稿。
 
 ### 3.3 ThemeManager.ets（三态状态管理）
 
@@ -169,7 +169,7 @@ export class ThemeManager {
 |------|------|:--:|
 | `specs/005-theme/{spec,plan,test-cases}.md` | 本工程规格/方案/测试用例 | 新建 |
 | `products/default/src/main/resources/base/element/color.json` | 亮色核心颜色收敛 | 改造 |
-| `products/default/src/main/resources/dark/element/color.json` | 暗色变体（var.md §7） | 改造 |
+| `products/default/src/main/resources/dark/element/color.json` | 暗色变体（var.md §6） | 改造 |
 | `products/default/src/main/ets/utils/ThemeManager.ets` | 三态主题管理器 | 新建 |
 | `products/default/src/main/ets/service/StorageService.ets` | 新增 `theme` 持久化 | 改造 |
 | `products/default/src/main/ets/defaultability/DefaultAbility.ets` | 恢复主题 + `onConfigurationUpdate` | 改造 |

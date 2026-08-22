@@ -125,7 +125,7 @@
 | **后端 API** | `../tpl-app-api/` | Spring Boot 3.x REST API，提供认证和个人中心接口 |
 | **Web 前端** | `../tpl-app-web/` | Vue 3 + TypeScript，模块划分和 UI 交互参考源 |
 | **产品文档** | `../docs/` | 产品概念设计、功能模块设计、数据模型设计 |
-| **设计系统** | `../DESIGN.md` | "破茧" 设计系统 v1.0，颜色/字体/间距规范 |
+| **设计系统** | `../DESIGN.md` | 设计系统 v1.0，颜色/字体/间距规范 |
 | **项目总览** | `../README.md` | tpl-workspace 项目总说明 |
 
 ---

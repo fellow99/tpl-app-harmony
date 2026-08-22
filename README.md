@@ -306,7 +306,7 @@ Phase 3: 个人中心 (101-profile)
 | 技术选型 | [../docs/技术选型.md](../docs/技术选型.md) | 全产品线技术栈选型 |
 | 用户模块设计 | [../docs/002-用户注册及登录设计.md](../docs/002-用户注册及登录设计.md) | 用户注册/登录接口定义 |
 | 个人中心设计 | [../docs/101-个人中心.md](../docs/101-个人中心.md) | 个人中心功能设计 |
-| 设计系统 | [../DESIGN.md](../DESIGN.md) | 「破茧」设计系统（Web/Android/HarmonyOS/Mini） |
+| 设计系统 | [../DESIGN.md](../DESIGN.md) | 设计系统（Web/Android/HarmonyOS/Mini） |
 
 ---
 

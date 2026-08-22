@@ -14,7 +14,7 @@
 
 ### 1.1 目的
 
-主题皮肤模块负责让鸿蒙端界面随主题切换呈现「亮色（破茧）+ 暗色（护眼）」两套固定皮肤，并支持 `light`（浅色）/ `dark`（深色）/ `system`（跟随系统）三态选择。本工程复用父工程 `specs/005-theme/var.md` 的颜色单一事实源，通过鸿蒙原生资源限定符（`base` / `dark`）+ `setColorMode` 落地，并提供登录页右上角圆形 emoji 切换按钮与个人中心「切换主题」入口。
+主题皮肤模块负责让鸿蒙端界面随主题切换呈现「亮色（tpl-workspace）+ 暗色（护眼）」两套固定皮肤，并支持 `light`（浅色）/ `dark`（深色）/ `system`（跟随系统）三态选择。本工程复用父工程 `specs/005-theme/var.md` 的颜色单一事实源，通过鸿蒙原生资源限定符（`base` / `dark`）+ `setColorMode` 落地，并提供登录页右上角圆形 emoji 切换按钮与个人中心「切换主题」入口。
 
 ### 1.2 解决的问题
 
@@ -35,7 +35,6 @@
 
 - 颜色事实源维护（父工程 `specs/005-theme/var.md` 负责）。
 - 全部 135 处硬编码收敛（本轮聚焦登录页与个人中心两个页面，其余页面后续迭代）。
-- 语义色（掌握度/错因/学科）暗色微调值定稿（父工程 var.md §7 注明实现暗色时经视觉 QA 定稿）。
 
 ---
 
@@ -85,8 +84,8 @@
 
 ### 3.1 颜色资源落点
 
-- FR-005-020: 核心品牌色/中性色 MUST 收敛到 `products/default/src/main/resources/base/element/color.json`，资源 `name` 遵循父工程 var.md §9 映射规则（`--` 去除、`-`→`_`），如 `--color-primary` → `color_primary`。
-- FR-005-021: `resources/dark/element/color.json` MUST 提供与 `base` 同名变量的暗色取值（值见父工程 var.md §7），保证 `$r('app.color.*')` 随颜色模式自动解析。
+- FR-005-020: 核心品牌色/中性色 MUST 收敛到 `products/default/src/main/resources/base/element/color.json`，资源 `name` 遵循父工程 var.md §8 映射规则（`--` 去除、`-`→`_`），如 `--color-primary` → `color_primary`。
+- FR-005-021: `resources/dark/element/color.json` MUST 提供与 `base` 同名变量的暗色取值（值见父工程 var.md §6），保证 `$r('app.color.*')` 随颜色模式自动解析。
 - FR-005-022: `base/element/color.json` MUST 保留既有 `start_window_background` 资源，不得覆盖丢失。
 
 ### 3.2 主题状态管理
@@ -119,7 +118,7 @@
 
 | 状态 | 值 | 语义 | setColorMode 映射 |
 |------|-----|------|------------------|
-| 浅色 | `light` | 强制「破茧」亮色皮肤 | `COLOR_MODE_LIGHT` |
+| 浅色 | `light` | 强制 tpl-workspace亮色皮肤 | `COLOR_MODE_LIGHT` |
 | 深色 | `dark` | 强制「护眼暗色」皮肤 | `COLOR_MODE_DARK` |
 | 跟随系统 | `system`（默认） | 跟随系统深浅色 | `COLOR_MODE_NOT_SET` |
 
@@ -203,10 +202,9 @@
 | # | 假设 |
 |---|------|
 | A1 | 颜色事实源由父工程 `var.md` 维护，本工程手工映射到 color.json，不引入生成脚本。 |
-| A2 | 扩展色（wechat / placeholder / divider）暗色取值 var.md §7 未锁定，本工程取「wechat 保持品牌绿、placeholder 保持、divider 取 Frost 暗色近似值」并记录，后续视觉 QA 定稿。 |
-| A3 | 语义色（掌握度/错因/学科）本轮不落 color.json，后续实现对应业务页时再收敛。 |
-| A4 | `setColorMode` 触发资源限定符切换后，ArkUI 自动重解析 `$r('app.color.*')`，无需手动重载页面（父工程 FR-005-010）。 |
-| A5 | 后端 tpl-app-api 无主题需求，本模块为纯前端本地偏好。 |
+| A2 | 扩展色（wechat / placeholder / divider）暗色取值 var.md §6 未锁定，本工程取「wechat 保持品牌绿、placeholder 保持、divider 取 Frost 暗色近似值」并记录，后续视觉 QA 定稿。 |
+| A3 | `setColorMode` 触发资源限定符切换后，ArkUI 自动重解析 `$r('app.color.*')`，无需手动重载页面（父工程 FR-005-010）。 |
+| A4 | 后端 tpl-app-api 无主题需求，本模块为纯前端本地偏好。 |
 
 ---
 

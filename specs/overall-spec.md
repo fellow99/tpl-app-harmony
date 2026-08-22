@@ -164,7 +164,7 @@
 | 依赖项 | 说明 | 状态 |
 |--------|------|:--:|
 | tpl-app-api | 后端 REST API（用户注册、登录、个人中心数据） | 开发中 |
-| D:\tpl-workspace\DESIGN.md | 共享设计系统（破茧v1.0） | ✅ 已就绪 |
+| D:\tpl-workspace\DESIGN.md | 共享设计系统（tpl-workspacev1.0） | ✅ 已就绪 |
 | tpl-app-web | Web前端的模块划分和交互设计参考 | ✅ 已实现 |
 | docs/*.md | 产品设计文档（功能、数据模型、UI布局） | ✅ 已就绪 |
 
