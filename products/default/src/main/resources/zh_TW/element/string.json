@@ -1,0 +1,648 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "tpl-workspace"
+    },
+    {
+      "name": "app_slogan",
+      "value": "多端業務，一站構建"
+    },
+    {
+      "name": "app_tagline",
+      "value": "加入tpl-workspace，多端業務應用框架"
+    },
+    {
+      "name": "dict_sys_user_gender_0",
+      "value": "男"
+    },
+    {
+      "name": "dict_sys_user_gender_1",
+      "value": "女"
+    },
+    {
+      "name": "dict_sys_user_gender_2",
+      "value": "未知"
+    },
+    {
+      "name": "ui_nav_drawerOpen",
+      "value": "開啟導覽選單"
+    },
+    {
+      "name": "ui_nav_drawerClose",
+      "value": "關閉導覽選單"
+    },
+    {
+      "name": "ui_nav_headerDesc",
+      "value": "導覽列標頭"
+    },
+    {
+      "name": "ui_nav_back",
+      "value": "返回"
+    },
+    {
+      "name": "ui_nav_home",
+      "value": "首頁"
+    },
+    {
+      "name": "ui_nav_loading",
+      "value": "載入中"
+    },
+    {
+      "name": "common_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "common_confirm",
+      "value": "確認"
+    },
+    {
+      "name": "common_retry",
+      "value": "重試"
+    },
+    {
+      "name": "common_loading",
+      "value": "載入中..."
+    },
+    {
+      "name": "common_loadFailed",
+      "value": "載入失敗"
+    },
+    {
+      "name": "common_phone",
+      "value": "手機號碼"
+    },
+    {
+      "name": "common_password",
+      "value": "密碼"
+    },
+    {
+      "name": "common_confirmPassword",
+      "value": "確認密碼"
+    },
+    {
+      "name": "common_oldPassword",
+      "value": "目前密碼"
+    },
+    {
+      "name": "common_newPassword",
+      "value": "新密碼"
+    },
+    {
+      "name": "common_captcha",
+      "value": "驗證碼"
+    },
+    {
+      "name": "common_graphicCaptcha",
+      "value": "圖形驗證碼"
+    },
+    {
+      "name": "common_smsCode",
+      "value": "簡訊驗證碼"
+    },
+    {
+      "name": "common_getCode",
+      "value": "取得驗證碼"
+    },
+    {
+      "name": "common_resendCountdown",
+      "value": "{countdown} 秒後重發"
+    },
+    {
+      "name": "common_nickname",
+      "value": "暱稱"
+    },
+    {
+      "name": "common_birthday",
+      "value": "生日"
+    },
+    {
+      "name": "common_email",
+      "value": "電子郵件"
+    },
+    {
+      "name": "common_captcha_alt",
+      "value": "驗證碼"
+    },
+    {
+      "name": "common_captcha_refreshTitle",
+      "value": "點擊重新整理驗證碼"
+    },
+    {
+      "name": "common_captcha_retry",
+      "value": "點擊重試"
+    },
+    {
+      "name": "message_success",
+      "value": "操作成功"
+    },
+    {
+      "name": "message_registerSuccess",
+      "value": "註冊成功"
+    },
+    {
+      "name": "message_registerSuccessRedirect",
+      "value": "註冊成功，即將前往登入"
+    },
+    {
+      "name": "message_userCreated",
+      "value": "使用者已建立，請登入"
+    },
+    {
+      "name": "message_saveSuccess",
+      "value": "儲存成功"
+    },
+    {
+      "name": "message_updateSuccess",
+      "value": "修改成功"
+    },
+    {
+      "name": "message_passwordChanged",
+      "value": "密碼修改成功"
+    },
+    {
+      "name": "message_passwordChangedRelogin",
+      "value": "密碼修改成功，請重新登入"
+    },
+    {
+      "name": "message_smsSent",
+      "value": "驗證碼已發送"
+    },
+    {
+      "name": "message_smsNotExpired",
+      "value": "驗證碼未過期，無需重複發送"
+    },
+    {
+      "name": "message_wechatBound",
+      "value": "微信綁定成功"
+    },
+    {
+      "name": "message_error_loginFailed",
+      "value": "登入失敗"
+    },
+    {
+      "name": "message_error_registerFailed",
+      "value": "註冊失敗"
+    },
+    {
+      "name": "message_error_requestFailed",
+      "value": "請求失敗"
+    },
+    {
+      "name": "message_error_network",
+      "value": "網路異常，請檢查網路連線"
+    },
+    {
+      "name": "message_error_serverBusy",
+      "value": "伺服器忙碌，請稍後再試"
+    },
+    {
+      "name": "message_error_unknown",
+      "value": "未知錯誤"
+    },
+    {
+      "name": "message_error_unauthorized",
+      "value": "登入已過期，請重新登入"
+    },
+    {
+      "name": "message_error_forbidden",
+      "value": "無權限存取"
+    },
+    {
+      "name": "message_error_badRequest",
+      "value": "請求參數格式錯誤"
+    },
+    {
+      "name": "message_error_requestBodyEmpty",
+      "value": "請求主體不能為空"
+    },
+    {
+      "name": "message_error_decryptFailed",
+      "value": "請求解密失敗"
+    },
+    {
+      "name": "message_error_userNotFound",
+      "value": "使用者不存在"
+    },
+    {
+      "name": "message_error_userDisabled",
+      "value": "使用者已被停用"
+    },
+    {
+      "name": "message_error_phoneRequired",
+      "value": "請輸入手機號碼"
+    },
+    {
+      "name": "message_error_phoneEmpty",
+      "value": "手機號碼不能為空"
+    },
+    {
+      "name": "message_error_phoneInvalid",
+      "value": "手機號碼格式不正確"
+    },
+    {
+      "name": "message_error_phoneEmptyForSms",
+      "value": "手機號碼為空，無法發送"
+    },
+    {
+      "name": "message_error_passwordRequired",
+      "value": "請輸入密碼"
+    },
+    {
+      "name": "message_error_passwordTooShort",
+      "value": "密碼長度不能少於 6 位"
+    },
+    {
+      "name": "message_error_passwordNeedLetter",
+      "value": "密碼必須包含字母"
+    },
+    {
+      "name": "message_error_passwordNeedDigit",
+      "value": "密碼必須包含數字"
+    },
+    {
+      "name": "message_error_passwordMismatch",
+      "value": "兩次輸入的密碼不一致"
+    },
+    {
+      "name": "message_error_currentPasswordWrong",
+      "value": "目前密碼不正確"
+    },
+    {
+      "name": "message_error_currentPasswordRequired",
+      "value": "請輸入目前密碼"
+    },
+    {
+      "name": "message_error_newPasswordRequired",
+      "value": "新密碼不能為空"
+    },
+    {
+      "name": "message_error_passwordIncomplete",
+      "value": "請填寫完整密碼資訊"
+    },
+    {
+      "name": "message_error_nicknameRequired",
+      "value": "暱稱不能為空"
+    },
+    {
+      "name": "message_error_usernameRequired",
+      "value": "請輸入使用者名稱"
+    },
+    {
+      "name": "message_error_usernameInvalid",
+      "value": "使用者名稱需為 3-20 位字母、數字或底線"
+    },
+    {
+      "name": "message_error_captchaRequired",
+      "value": "請輸入驗證碼"
+    },
+    {
+      "name": "message_error_captchaIncorrect",
+      "value": "驗證碼錯誤"
+    },
+    {
+      "name": "message_error_captchaExpired",
+      "value": "驗證碼已過期"
+    },
+    {
+      "name": "message_error_captchaInvalidFormat",
+      "value": "驗證碼格式不正確，應為 4-6 位數字或字母"
+    },
+    {
+      "name": "message_error_smsCodeRequired",
+      "value": "請輸入簡訊驗證碼"
+    },
+    {
+      "name": "message_error_smsCodeIncorrect",
+      "value": "簡訊驗證碼錯誤"
+    },
+    {
+      "name": "message_error_smsCodeInvalid",
+      "value": "請輸入 6 位簡訊驗證碼"
+    },
+    {
+      "name": "message_error_getCodeFailed",
+      "value": "取得驗證碼失敗"
+    },
+    {
+      "name": "message_error_sendCodeFailed",
+      "value": "發送失敗，請重試"
+    },
+    {
+      "name": "message_error_smsSendFailed",
+      "value": "簡訊發送失敗，請稍後重試"
+    },
+    {
+      "name": "message_error_saveFailed",
+      "value": "儲存失敗，請重試"
+    },
+    {
+      "name": "message_error_updateFailed",
+      "value": "修改失敗，請重試"
+    },
+    {
+      "name": "message_error_fetchUserInfoFailed",
+      "value": "取得使用者資訊失敗"
+    },
+    {
+      "name": "message_error_unbindFailed",
+      "value": "取消授權失敗"
+    },
+    {
+      "name": "message_error_userCreateFailed",
+      "value": "無法建立使用者"
+    },
+    {
+      "name": "message_error_userExistsPasswordWrong",
+      "value": "使用者已存在且密碼不正確"
+    },
+    {
+      "name": "message_error_noPasswordUseWechat",
+      "value": "此帳號未設定密碼，請使用微信登入"
+    },
+    {
+      "name": "message_error_wechatLoginFailed",
+      "value": "微信登入失敗，請重試"
+    },
+    {
+      "name": "message_error_wechatParamsMissing",
+      "value": "微信登入參數缺失，請重試"
+    },
+    {
+      "name": "message_error_wechatNotInstalled",
+      "value": "未安裝微信，請先安裝微信"
+    },
+    {
+      "name": "message_error_wechatLaunchFailed",
+      "value": "啟動微信失敗，請重試"
+    },
+    {
+      "name": "message_error_wechatStateCheckFailed",
+      "value": "微信授權狀態驗證失敗，請重試"
+    },
+    {
+      "name": "message_error_wechatUnboundNeedPhone",
+      "value": "此微信未綁定帳號，請先綁定手機號碼"
+    },
+    {
+      "name": "message_error_wechatUnboundUsePhoneLogin",
+      "value": "此微信未綁定帳號，請先使用手機號碼登入後在個人中心綁定微信"
+    },
+    {
+      "name": "message_error_wechatBindPhone",
+      "value": "請綁定手機號碼後登入"
+    },
+    {
+      "name": "message_error_wechatPhoneAuthRequired",
+      "value": "需授權手機號碼後才能登入"
+    },
+    {
+      "name": "message_error_wechatPlatformUnsupported",
+      "value": "平台帳號暫不支援"
+    },
+    {
+      "name": "message_error_wechatPlatformNotConfigured",
+      "value": "平台帳號未配置"
+    },
+    {
+      "name": "message_error_wechatXcxCodeRequired",
+      "value": "小程式登入 code 不能為空"
+    },
+    {
+      "name": "message_error_wechatGetPhoneFailed",
+      "value": "取得微信手機號碼失敗"
+    },
+    {
+      "name": "message_error_wechatXcxConfigMissing",
+      "value": "小程式配置缺失"
+    },
+    {
+      "name": "message_error_wechatAccessTokenFailed",
+      "value": "取得微信 access_token 失敗"
+    },
+    {
+      "name": "message_error_wechatUnsupportedSource",
+      "value": "不支援的第三方登入類型"
+    },
+    {
+      "name": "message_error_wechatInvalidAuthConfig",
+      "value": "未取得有效的 Auth 配置"
+    },
+    {
+      "name": "message_error_socialParamRequired",
+      "value": "第三方登入參數不能為空"
+    },
+    {
+      "name": "message_error_socialBoundUserNotFound",
+      "value": "綁定的使用者不存在"
+    },
+    {
+      "name": "message_error_socialAlreadyBound",
+      "value": "此第三方帳號已被綁定"
+    },
+    {
+      "name": "message_error_unsupportedGrantType",
+      "value": "不支援的授權類型"
+    },
+    {
+      "name": "message_error_rsaKeyMissing",
+      "value": "缺少 RSA 公鑰配置"
+    },
+    {
+      "name": "message_error_rsaEncryptFailed",
+      "value": "RSA 加密失敗"
+    },
+    {
+      "name": "message_error_wechatNotEnabled",
+      "value": "微信登入未啟用"
+    },
+    {
+      "name": "message_error_phonePasswordRequired",
+      "value": "手機號碼和密碼不能為空"
+    },
+    {
+      "name": "common_theme",
+      "value": "主題"
+    },
+    {
+      "name": "common_theme_light",
+      "value": "淺色"
+    },
+    {
+      "name": "common_theme_dark",
+      "value": "深色"
+    },
+    {
+      "name": "common_theme_system",
+      "value": "跟隨系統"
+    },
+    {
+      "name": "common_theme_toggle",
+      "value": "切換主題"
+    },
+    {
+      "name": "auth_register_title",
+      "value": "建立帳號"
+    },
+    {
+      "name": "auth_register_submit",
+      "value": "註冊"
+    },
+    {
+      "name": "auth_register_submitting",
+      "value": "註冊中..."
+    },
+    {
+      "name": "auth_register_hasAccount",
+      "value": "已有帳號？"
+    },
+    {
+      "name": "auth_register_goLogin",
+      "value": "去登入 →"
+    },
+    {
+      "name": "auth_register_phonePlaceholder",
+      "value": "手機號碼（即使用者名稱）"
+    },
+    {
+      "name": "auth_register_passwordPlaceholder",
+      "value": "密碼（不少於 6 位）"
+    },
+    {
+      "name": "auth_register_confirmPasswordPlaceholder",
+      "value": "確認密碼"
+    },
+    {
+      "name": "auth_login_title",
+      "value": "登入"
+    },
+    {
+      "name": "auth_login_tab_password",
+      "value": "密碼登入"
+    },
+    {
+      "name": "auth_login_tab_sms",
+      "value": "簡訊登入"
+    },
+    {
+      "name": "auth_login_submit",
+      "value": "登入"
+    },
+    {
+      "name": "auth_login_submitting",
+      "value": "登入中..."
+    },
+    {
+      "name": "auth_login_phonePlaceholder",
+      "value": "請輸入手機號碼"
+    },
+    {
+      "name": "auth_login_passwordPlaceholder",
+      "value": "請輸入密碼"
+    },
+    {
+      "name": "auth_login_smsCodePlaceholder",
+      "value": "簡訊驗證碼"
+    },
+    {
+      "name": "auth_login_captchaPlaceholder",
+      "value": "圖形驗證碼"
+    },
+    {
+      "name": "auth_login_noAccount",
+      "value": "還沒有帳號？"
+    },
+    {
+      "name": "auth_login_goRegister",
+      "value": "立即註冊 →"
+    },
+    {
+      "name": "auth_login_otherMethods",
+      "value": "其他登入方式"
+    },
+    {
+      "name": "auth_wechat_login",
+      "value": "微信登入"
+    },
+    {
+      "name": "auth_wechat_loggingIn",
+      "value": "微信登入中..."
+    },
+    {
+      "name": "auth_wechat_processing",
+      "value": "微信登入處理中…"
+    },
+    {
+      "name": "auth_profile_title",
+      "value": "個人中心"
+    },
+    {
+      "name": "auth_profile_sectionInfo",
+      "value": "個人資訊"
+    },
+    {
+      "name": "auth_profile_avatarDesc",
+      "value": "使用者頭像"
+    },
+    {
+      "name": "auth_profile_editInfo",
+      "value": "修改資訊"
+    },
+    {
+      "name": "auth_profile_changePassword",
+      "value": "修改密碼"
+    },
+    {
+      "name": "auth_profile_changeNickname",
+      "value": "修改暱稱"
+    },
+    {
+      "name": "auth_profile_bindWechat",
+      "value": "綁定微信"
+    },
+    {
+      "name": "auth_profile_logout",
+      "value": "登出"
+    },
+    {
+      "name": "auth_profile_logoutConfirm",
+      "value": "確定要登出嗎？"
+    },
+    {
+      "name": "auth_profile_nicknamePlaceholder",
+      "value": "請輸入暱稱"
+    },
+    {
+      "name": "auth_profile_emailPlaceholder",
+      "value": "請輸入電子郵件"
+    },
+    {
+      "name": "auth_profile_birthdayPlaceholder",
+      "value": "請選擇生日"
+    },
+    {
+      "name": "auth_profile_save",
+      "value": "儲存"
+    },
+    {
+      "name": "auth_profile_saving",
+      "value": "儲存中..."
+    },
+    {
+      "name": "auth_profile_submit",
+      "value": "確認修改"
+    },
+    {
+      "name": "auth_profile_submitting",
+      "value": "提交中..."
+    },
+    {
+      "name": "auth_profile_sectionPreferences",
+      "value": "偏好設定"
+    },
+    {
+      "name": "auth_profile_switchLanguage",
+      "value": "切換語言"
+    }
+  ]
+}

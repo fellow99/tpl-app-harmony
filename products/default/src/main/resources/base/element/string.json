@@ -1,0 +1,692 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "module description"
+    },
+    {
+      "name": "ability_desc",
+      "value": "description"
+    },
+    {
+      "name": "ability_label",
+      "value": "tpl-workspace"
+    },
+    {
+      "name": "grid_title_label",
+      "value": "title"
+    },
+    {
+      "name": "adaptive_layout",
+      "value": "adaptive layout"
+    },
+    {
+      "name": "system_cap",
+      "value": "system capabilities"
+    },
+    {
+      "name": "responsive_layout",
+      "value": "responsive layout"
+    },
+    {
+      "name": "location_cap_invalid",
+      "value": "This device does not have the system capability of location service"
+    },
+    {
+      "name": "location_cap_valid",
+      "value": "This device has the system capability of location service"
+    },
+    {
+      "name": "app_name",
+      "value": "tpl-workspace"
+    },
+    {
+      "name": "app_tagline",
+      "value": "加入tpl-workspace，多端业务应用框架"
+    },
+    {
+      "name": "dict_sys_user_gender_0",
+      "value": "男"
+    },
+    {
+      "name": "dict_sys_user_gender_1",
+      "value": "女"
+    },
+    {
+      "name": "dict_sys_user_gender_2",
+      "value": "未知"
+    },
+    {
+      "name": "ui_nav_drawerOpen",
+      "value": "打开导航菜单"
+    },
+    {
+      "name": "ui_nav_drawerClose",
+      "value": "关闭导航菜单"
+    },
+    {
+      "name": "ui_nav_headerDesc",
+      "value": "导航栏头部"
+    },
+    {
+      "name": "ui_nav_back",
+      "value": "返回"
+    },
+    {
+      "name": "ui_nav_home",
+      "value": "首页"
+    },
+    {
+      "name": "ui_nav_loading",
+      "value": "加载中"
+    },
+    {
+      "name": "common_cancel",
+      "value": "取消"
+    },
+    {
+      "name": "common_confirm",
+      "value": "确认"
+    },
+    {
+      "name": "common_retry",
+      "value": "重试"
+    },
+    {
+      "name": "common_loading",
+      "value": "加载中..."
+    },
+    {
+      "name": "common_loadFailed",
+      "value": "加载失败"
+    },
+    {
+      "name": "common_phone",
+      "value": "手机号"
+    },
+    {
+      "name": "common_password",
+      "value": "密码"
+    },
+    {
+      "name": "common_confirmPassword",
+      "value": "确认密码"
+    },
+    {
+      "name": "common_oldPassword",
+      "value": "当前密码"
+    },
+    {
+      "name": "common_newPassword",
+      "value": "新密码"
+    },
+    {
+      "name": "common_captcha",
+      "value": "验证码"
+    },
+    {
+      "name": "common_graphicCaptcha",
+      "value": "图形验证码"
+    },
+    {
+      "name": "common_smsCode",
+      "value": "短信验证码"
+    },
+    {
+      "name": "common_getCode",
+      "value": "获取验证码"
+    },
+    {
+      "name": "common_resendCountdown",
+      "value": "{countdown}s 后重发"
+    },
+    {
+      "name": "common_nickname",
+      "value": "昵称"
+    },
+    {
+      "name": "common_birthday",
+      "value": "生日"
+    },
+    {
+      "name": "common_email",
+      "value": "邮箱"
+    },
+    {
+      "name": "common_captcha_alt",
+      "value": "验证码"
+    },
+    {
+      "name": "common_captcha_refreshTitle",
+      "value": "点击刷新验证码"
+    },
+    {
+      "name": "common_captcha_retry",
+      "value": "点击重试"
+    },
+    {
+      "name": "message_success",
+      "value": "操作成功"
+    },
+    {
+      "name": "message_registerSuccess",
+      "value": "注册成功"
+    },
+    {
+      "name": "message_registerSuccessRedirect",
+      "value": "注册成功，即将前往登录"
+    },
+    {
+      "name": "message_userCreated",
+      "value": "用户已创建，请登录"
+    },
+    {
+      "name": "message_saveSuccess",
+      "value": "保存成功"
+    },
+    {
+      "name": "message_updateSuccess",
+      "value": "修改成功"
+    },
+    {
+      "name": "message_passwordChanged",
+      "value": "密码修改成功"
+    },
+    {
+      "name": "message_passwordChangedRelogin",
+      "value": "密码修改成功，请重新登录"
+    },
+    {
+      "name": "message_smsSent",
+      "value": "验证码已发送"
+    },
+    {
+      "name": "message_smsNotExpired",
+      "value": "验证码未过期，无需重复发送"
+    },
+    {
+      "name": "message_wechatBound",
+      "value": "微信绑定成功"
+    },
+    {
+      "name": "message_error_loginFailed",
+      "value": "登录失败"
+    },
+    {
+      "name": "message_error_registerFailed",
+      "value": "注册失败"
+    },
+    {
+      "name": "message_error_requestFailed",
+      "value": "请求失败"
+    },
+    {
+      "name": "message_error_network",
+      "value": "网络异常，请检查网络连接"
+    },
+    {
+      "name": "message_error_serverBusy",
+      "value": "服务器繁忙，请稍后再试"
+    },
+    {
+      "name": "message_error_unknown",
+      "value": "未知错误"
+    },
+    {
+      "name": "message_error_unauthorized",
+      "value": "登录已过期，请重新登录"
+    },
+    {
+      "name": "message_error_forbidden",
+      "value": "无权限访问"
+    },
+    {
+      "name": "message_error_badRequest",
+      "value": "请求参数格式错误"
+    },
+    {
+      "name": "message_error_requestBodyEmpty",
+      "value": "请求体不能为空"
+    },
+    {
+      "name": "message_error_decryptFailed",
+      "value": "请求解密失败"
+    },
+    {
+      "name": "message_error_userNotFound",
+      "value": "用户不存在"
+    },
+    {
+      "name": "message_error_userDisabled",
+      "value": "用户已被停用"
+    },
+    {
+      "name": "message_error_phoneRequired",
+      "value": "请输入手机号"
+    },
+    {
+      "name": "message_error_phoneEmpty",
+      "value": "手机号不能为空"
+    },
+    {
+      "name": "message_error_phoneInvalid",
+      "value": "手机号格式不正确"
+    },
+    {
+      "name": "message_error_phoneEmptyForSms",
+      "value": "手机号为空，无法发送"
+    },
+    {
+      "name": "message_error_passwordRequired",
+      "value": "请输入密码"
+    },
+    {
+      "name": "message_error_passwordTooShort",
+      "value": "密码长度不能少于 6 位"
+    },
+    {
+      "name": "message_error_passwordNeedLetter",
+      "value": "密码必须包含字母"
+    },
+    {
+      "name": "message_error_passwordNeedDigit",
+      "value": "密码必须包含数字"
+    },
+    {
+      "name": "message_error_passwordMismatch",
+      "value": "两次输入的密码不一致"
+    },
+    {
+      "name": "message_error_currentPasswordWrong",
+      "value": "当前密码不正确"
+    },
+    {
+      "name": "message_error_currentPasswordRequired",
+      "value": "请输入当前密码"
+    },
+    {
+      "name": "message_error_newPasswordRequired",
+      "value": "新密码不能为空"
+    },
+    {
+      "name": "message_error_passwordIncomplete",
+      "value": "请填写完整密码信息"
+    },
+    {
+      "name": "message_error_nicknameRequired",
+      "value": "昵称不能为空"
+    },
+    {
+      "name": "message_error_usernameRequired",
+      "value": "请输入用户名"
+    },
+    {
+      "name": "message_error_usernameInvalid",
+      "value": "用户名需为3-20位字母、数字或下划线"
+    },
+    {
+      "name": "message_error_captchaRequired",
+      "value": "请输入验证码"
+    },
+    {
+      "name": "message_error_captchaIncorrect",
+      "value": "验证码错误"
+    },
+    {
+      "name": "message_error_captchaExpired",
+      "value": "验证码已过期"
+    },
+    {
+      "name": "message_error_captchaInvalidFormat",
+      "value": "验证码格式不正确，应为 4-6 位数字或字母"
+    },
+    {
+      "name": "message_error_smsCodeRequired",
+      "value": "请输入短信验证码"
+    },
+    {
+      "name": "message_error_smsCodeIncorrect",
+      "value": "短信验证码错误"
+    },
+    {
+      "name": "message_error_smsCodeInvalid",
+      "value": "请输入6位短信验证码"
+    },
+    {
+      "name": "message_error_getCodeFailed",
+      "value": "获取验证码失败"
+    },
+    {
+      "name": "message_error_sendCodeFailed",
+      "value": "发送失败，请重试"
+    },
+    {
+      "name": "message_error_smsSendFailed",
+      "value": "短信发送失败，请稍后重试"
+    },
+    {
+      "name": "message_error_saveFailed",
+      "value": "保存失败，请重试"
+    },
+    {
+      "name": "message_error_updateFailed",
+      "value": "修改失败，请重试"
+    },
+    {
+      "name": "message_error_fetchUserInfoFailed",
+      "value": "获取用户信息失败"
+    },
+    {
+      "name": "message_error_unbindFailed",
+      "value": "取消授权失败"
+    },
+    {
+      "name": "message_error_userCreateFailed",
+      "value": "无法创建用户"
+    },
+    {
+      "name": "message_error_userExistsPasswordWrong",
+      "value": "用户已存在且密码不正确"
+    },
+    {
+      "name": "message_error_noPasswordUseWechat",
+      "value": "该账号未设置密码，请使用微信登录"
+    },
+    {
+      "name": "message_error_wechatLoginFailed",
+      "value": "微信登录失败，请重试"
+    },
+    {
+      "name": "message_error_wechatParamsMissing",
+      "value": "微信登录参数缺失，请重试"
+    },
+    {
+      "name": "message_error_wechatNotInstalled",
+      "value": "未安装微信，请先安装微信"
+    },
+    {
+      "name": "message_error_wechatLaunchFailed",
+      "value": "拉起微信失败，请重试"
+    },
+    {
+      "name": "message_error_wechatStateCheckFailed",
+      "value": "微信授权状态校验失败，请重试"
+    },
+    {
+      "name": "message_error_wechatUnboundNeedPhone",
+      "value": "该微信未绑定账号，请先绑定手机号"
+    },
+    {
+      "name": "message_error_wechatUnboundUsePhoneLogin",
+      "value": "该微信未绑定账号，请先使用手机号登录后在个人中心绑定微信"
+    },
+    {
+      "name": "message_error_wechatBindPhone",
+      "value": "请绑定手机号后登录"
+    },
+    {
+      "name": "message_error_wechatPhoneAuthRequired",
+      "value": "需授权手机号后才能登录"
+    },
+    {
+      "name": "message_error_wechatPlatformUnsupported",
+      "value": "平台账号暂不支持"
+    },
+    {
+      "name": "message_error_wechatPlatformNotConfigured",
+      "value": "平台账号未配置"
+    },
+    {
+      "name": "message_error_wechatXcxCodeRequired",
+      "value": "小程序登录code不能为空"
+    },
+    {
+      "name": "message_error_wechatGetPhoneFailed",
+      "value": "获取微信手机号失败"
+    },
+    {
+      "name": "message_error_wechatXcxConfigMissing",
+      "value": "小程序配置缺失"
+    },
+    {
+      "name": "message_error_wechatAccessTokenFailed",
+      "value": "获取微信access_token失败"
+    },
+    {
+      "name": "message_error_wechatUnsupportedSource",
+      "value": "不支持的第三方登录类型"
+    },
+    {
+      "name": "message_error_wechatInvalidAuthConfig",
+      "value": "未获取到有效的Auth配置"
+    },
+    {
+      "name": "message_error_socialParamRequired",
+      "value": "第三方登录参数不能为空"
+    },
+    {
+      "name": "message_error_socialBoundUserNotFound",
+      "value": "绑定的用户不存在"
+    },
+    {
+      "name": "message_error_socialAlreadyBound",
+      "value": "此三方账号已被绑定"
+    },
+    {
+      "name": "message_error_unsupportedGrantType",
+      "value": "不支持的授权类型"
+    },
+    {
+      "name": "message_error_rsaKeyMissing",
+      "value": "缺少 RSA 公钥配置"
+    },
+    {
+      "name": "message_error_rsaEncryptFailed",
+      "value": "RSA 加密失败"
+    },
+    {
+      "name": "message_error_wechatNotEnabled",
+      "value": "微信登录未启用"
+    },
+    {
+      "name": "message_error_phonePasswordRequired",
+      "value": "手机号和密码不能为空"
+    },
+    {
+      "name": "auth_register_title",
+      "value": "创建账号"
+    },
+    {
+      "name": "auth_register_submit",
+      "value": "注册"
+    },
+    {
+      "name": "auth_register_submitting",
+      "value": "注册中..."
+    },
+    {
+      "name": "auth_register_hasAccount",
+      "value": "已有账号？"
+    },
+    {
+      "name": "auth_register_goLogin",
+      "value": "去登录 →"
+    },
+    {
+      "name": "auth_register_phonePlaceholder",
+      "value": "手机号（即用户名）"
+    },
+    {
+      "name": "auth_register_passwordPlaceholder",
+      "value": "密码（不少于 6 位）"
+    },
+    {
+      "name": "auth_register_confirmPasswordPlaceholder",
+      "value": "确认密码"
+    },
+    {
+      "name": "auth_login_title",
+      "value": "登录"
+    },
+    {
+      "name": "auth_login_tab_password",
+      "value": "密码登录"
+    },
+    {
+      "name": "auth_login_tab_sms",
+      "value": "短信登录"
+    },
+    {
+      "name": "auth_login_submit",
+      "value": "登录"
+    },
+    {
+      "name": "auth_login_submitting",
+      "value": "登录中..."
+    },
+    {
+      "name": "auth_login_phonePlaceholder",
+      "value": "请输入手机号"
+    },
+    {
+      "name": "auth_login_passwordPlaceholder",
+      "value": "请输入密码"
+    },
+    {
+      "name": "auth_login_smsCodePlaceholder",
+      "value": "短信验证码"
+    },
+    {
+      "name": "auth_login_captchaPlaceholder",
+      "value": "图形验证码"
+    },
+    {
+      "name": "auth_login_noAccount",
+      "value": "还没有账号？"
+    },
+    {
+      "name": "auth_login_goRegister",
+      "value": "立即注册 →"
+    },
+    {
+      "name": "auth_login_otherMethods",
+      "value": "其他登录方式"
+    },
+    {
+      "name": "auth_wechat_login",
+      "value": "微信登录"
+    },
+    {
+      "name": "auth_wechat_loggingIn",
+      "value": "微信登录中..."
+    },
+    {
+      "name": "auth_wechat_processing",
+      "value": "微信登录处理中…"
+    },
+    {
+      "name": "auth_profile_title",
+      "value": "个人中心"
+    },
+    {
+      "name": "auth_profile_sectionInfo",
+      "value": "个人信息"
+    },
+    {
+      "name": "auth_profile_avatarDesc",
+      "value": "用户头像"
+    },
+    {
+      "name": "auth_profile_editInfo",
+      "value": "修改信息"
+    },
+    {
+      "name": "auth_profile_changePassword",
+      "value": "修改密码"
+    },
+    {
+      "name": "auth_profile_language",
+      "value": "切换语言"
+    },
+    {
+      "name": "auth_profile_theme",
+      "value": "切换主题"
+    },
+    {
+      "name": "auth_profile_changeNickname",
+      "value": "修改昵称"
+    },
+    {
+      "name": "auth_profile_bindWechat",
+      "value": "绑定微信"
+    },
+    {
+      "name": "auth_profile_logout",
+      "value": "退出登录"
+    },
+    {
+      "name": "auth_profile_logoutConfirm",
+      "value": "确定退出登录吗？"
+    },
+    {
+      "name": "auth_profile_nicknamePlaceholder",
+      "value": "请输入昵称"
+    },
+    {
+      "name": "auth_profile_emailPlaceholder",
+      "value": "请输入邮箱"
+    },
+    {
+      "name": "auth_profile_birthdayPlaceholder",
+      "value": "请选择生日"
+    },
+    {
+      "name": "auth_profile_save",
+      "value": "保存"
+    },
+    {
+      "name": "auth_profile_saving",
+      "value": "保存中..."
+    },
+    {
+      "name": "auth_profile_submit",
+      "value": "确认修改"
+    },
+    {
+      "name": "auth_profile_submitting",
+      "value": "提交中..."
+    },
+    {
+      "name": "app_slogan",
+      "value": "多端业务，一站构建"
+    },
+    {
+      "name": "common_theme",
+      "value": "主题"
+    },
+    {
+      "name": "common_theme_light",
+      "value": "浅色"
+    },
+    {
+      "name": "common_theme_dark",
+      "value": "深色"
+    },
+    {
+      "name": "common_theme_system",
+      "value": "跟随系统"
+    },
+    {
+      "name": "common_theme_toggle",
+      "value": "切换主题"
+    },
+    {
+      "name": "auth_profile_sectionPreferences",
+      "value": "偏好设置"
+    },
+    {
+      "name": "auth_profile_switchLanguage",
+      "value": "切换语言"
+    }
+  ]
+}

@@ -1,0 +1,648 @@
+{
+  "string": [
+    {
+      "name": "app_name",
+      "value": "tpl-workspace"
+    },
+    {
+      "name": "app_slogan",
+      "value": "Build once, run everywhere"
+    },
+    {
+      "name": "app_tagline",
+      "value": "Join tpl-workspace, a multi-platform business application framework"
+    },
+    {
+      "name": "dict_sys_user_gender_0",
+      "value": "Male"
+    },
+    {
+      "name": "dict_sys_user_gender_1",
+      "value": "Female"
+    },
+    {
+      "name": "dict_sys_user_gender_2",
+      "value": "Unknown"
+    },
+    {
+      "name": "ui_nav_drawerOpen",
+      "value": "Open navigation menu"
+    },
+    {
+      "name": "ui_nav_drawerClose",
+      "value": "Close navigation menu"
+    },
+    {
+      "name": "ui_nav_headerDesc",
+      "value": "Navigation bar header"
+    },
+    {
+      "name": "ui_nav_back",
+      "value": "Back"
+    },
+    {
+      "name": "ui_nav_home",
+      "value": "Home"
+    },
+    {
+      "name": "ui_nav_loading",
+      "value": "Loading"
+    },
+    {
+      "name": "common_cancel",
+      "value": "Cancel"
+    },
+    {
+      "name": "common_confirm",
+      "value": "Confirm"
+    },
+    {
+      "name": "common_retry",
+      "value": "Retry"
+    },
+    {
+      "name": "common_loading",
+      "value": "Loading..."
+    },
+    {
+      "name": "common_loadFailed",
+      "value": "Failed to load"
+    },
+    {
+      "name": "common_phone",
+      "value": "Phone number"
+    },
+    {
+      "name": "common_password",
+      "value": "Password"
+    },
+    {
+      "name": "common_confirmPassword",
+      "value": "Confirm password"
+    },
+    {
+      "name": "common_oldPassword",
+      "value": "Current password"
+    },
+    {
+      "name": "common_newPassword",
+      "value": "New password"
+    },
+    {
+      "name": "common_captcha",
+      "value": "Captcha"
+    },
+    {
+      "name": "common_graphicCaptcha",
+      "value": "Graphic captcha"
+    },
+    {
+      "name": "common_smsCode",
+      "value": "SMS code"
+    },
+    {
+      "name": "common_getCode",
+      "value": "Get code"
+    },
+    {
+      "name": "common_resendCountdown",
+      "value": "Resend in {countdown}s"
+    },
+    {
+      "name": "common_nickname",
+      "value": "Nickname"
+    },
+    {
+      "name": "common_birthday",
+      "value": "Birthday"
+    },
+    {
+      "name": "common_email",
+      "value": "Email"
+    },
+    {
+      "name": "common_captcha_alt",
+      "value": "Captcha"
+    },
+    {
+      "name": "common_captcha_refreshTitle",
+      "value": "Click to refresh captcha"
+    },
+    {
+      "name": "common_captcha_retry",
+      "value": "Click to retry"
+    },
+    {
+      "name": "message_success",
+      "value": "Operation succeeded"
+    },
+    {
+      "name": "message_registerSuccess",
+      "value": "Registration succeeded"
+    },
+    {
+      "name": "message_registerSuccessRedirect",
+      "value": "Registration succeeded, redirecting to login"
+    },
+    {
+      "name": "message_userCreated",
+      "value": "User created, please log in"
+    },
+    {
+      "name": "message_saveSuccess",
+      "value": "Saved successfully"
+    },
+    {
+      "name": "message_updateSuccess",
+      "value": "Updated successfully"
+    },
+    {
+      "name": "message_passwordChanged",
+      "value": "Password changed successfully"
+    },
+    {
+      "name": "message_passwordChangedRelogin",
+      "value": "Password changed, please log in again"
+    },
+    {
+      "name": "message_smsSent",
+      "value": "Code sent"
+    },
+    {
+      "name": "message_smsNotExpired",
+      "value": "Code has not expired, no need to resend"
+    },
+    {
+      "name": "message_wechatBound",
+      "value": "WeChat bound successfully"
+    },
+    {
+      "name": "message_error_loginFailed",
+      "value": "Login failed"
+    },
+    {
+      "name": "message_error_registerFailed",
+      "value": "Registration failed"
+    },
+    {
+      "name": "message_error_requestFailed",
+      "value": "Request failed"
+    },
+    {
+      "name": "message_error_network",
+      "value": "Network error, please check your network connection"
+    },
+    {
+      "name": "message_error_serverBusy",
+      "value": "Server is busy, please try again later"
+    },
+    {
+      "name": "message_error_unknown",
+      "value": "Unknown error"
+    },
+    {
+      "name": "message_error_unauthorized",
+      "value": "Login expired, please log in again"
+    },
+    {
+      "name": "message_error_forbidden",
+      "value": "No access permission"
+    },
+    {
+      "name": "message_error_badRequest",
+      "value": "Invalid request parameter format"
+    },
+    {
+      "name": "message_error_requestBodyEmpty",
+      "value": "Request body cannot be empty"
+    },
+    {
+      "name": "message_error_decryptFailed",
+      "value": "Request decryption failed"
+    },
+    {
+      "name": "message_error_userNotFound",
+      "value": "User not found"
+    },
+    {
+      "name": "message_error_userDisabled",
+      "value": "User has been disabled"
+    },
+    {
+      "name": "message_error_phoneRequired",
+      "value": "Please enter your phone number"
+    },
+    {
+      "name": "message_error_phoneEmpty",
+      "value": "Phone number cannot be empty"
+    },
+    {
+      "name": "message_error_phoneInvalid",
+      "value": "Invalid phone number format"
+    },
+    {
+      "name": "message_error_phoneEmptyForSms",
+      "value": "Phone number is empty, cannot send"
+    },
+    {
+      "name": "message_error_passwordRequired",
+      "value": "Please enter your password"
+    },
+    {
+      "name": "message_error_passwordTooShort",
+      "value": "Password must be at least 6 characters"
+    },
+    {
+      "name": "message_error_passwordNeedLetter",
+      "value": "Password must contain letters"
+    },
+    {
+      "name": "message_error_passwordNeedDigit",
+      "value": "Password must contain digits"
+    },
+    {
+      "name": "message_error_passwordMismatch",
+      "value": "Passwords do not match"
+    },
+    {
+      "name": "message_error_currentPasswordWrong",
+      "value": "Current password is incorrect"
+    },
+    {
+      "name": "message_error_currentPasswordRequired",
+      "value": "Please enter your current password"
+    },
+    {
+      "name": "message_error_newPasswordRequired",
+      "value": "New password cannot be empty"
+    },
+    {
+      "name": "message_error_passwordIncomplete",
+      "value": "Please fill in complete password information"
+    },
+    {
+      "name": "message_error_nicknameRequired",
+      "value": "Nickname cannot be empty"
+    },
+    {
+      "name": "message_error_usernameRequired",
+      "value": "Please enter your username"
+    },
+    {
+      "name": "message_error_usernameInvalid",
+      "value": "Username must be 3-20 characters of letters, digits, or underscores"
+    },
+    {
+      "name": "message_error_captchaRequired",
+      "value": "Please enter the captcha"
+    },
+    {
+      "name": "message_error_captchaIncorrect",
+      "value": "Incorrect captcha"
+    },
+    {
+      "name": "message_error_captchaExpired",
+      "value": "Captcha expired"
+    },
+    {
+      "name": "message_error_captchaInvalidFormat",
+      "value": "Invalid captcha format; it should be 4-6 digits or letters"
+    },
+    {
+      "name": "message_error_smsCodeRequired",
+      "value": "Please enter the SMS code"
+    },
+    {
+      "name": "message_error_smsCodeIncorrect",
+      "value": "Incorrect SMS code"
+    },
+    {
+      "name": "message_error_smsCodeInvalid",
+      "value": "Please enter the 6-digit SMS code"
+    },
+    {
+      "name": "message_error_getCodeFailed",
+      "value": "Failed to get code"
+    },
+    {
+      "name": "message_error_sendCodeFailed",
+      "value": "Failed to send, please retry"
+    },
+    {
+      "name": "message_error_smsSendFailed",
+      "value": "Failed to send SMS, please try again later"
+    },
+    {
+      "name": "message_error_saveFailed",
+      "value": "Failed to save, please retry"
+    },
+    {
+      "name": "message_error_updateFailed",
+      "value": "Failed to update, please retry"
+    },
+    {
+      "name": "message_error_fetchUserInfoFailed",
+      "value": "Failed to fetch user info"
+    },
+    {
+      "name": "message_error_unbindFailed",
+      "value": "Failed to unbind"
+    },
+    {
+      "name": "message_error_userCreateFailed",
+      "value": "Unable to create user"
+    },
+    {
+      "name": "message_error_userExistsPasswordWrong",
+      "value": "User already exists and password is incorrect"
+    },
+    {
+      "name": "message_error_noPasswordUseWechat",
+      "value": "This account has no password set, please log in with WeChat"
+    },
+    {
+      "name": "message_error_wechatLoginFailed",
+      "value": "WeChat login failed, please retry"
+    },
+    {
+      "name": "message_error_wechatParamsMissing",
+      "value": "WeChat login parameters missing, please retry"
+    },
+    {
+      "name": "message_error_wechatNotInstalled",
+      "value": "WeChat is not installed, please install WeChat first"
+    },
+    {
+      "name": "message_error_wechatLaunchFailed",
+      "value": "Failed to launch WeChat, please retry"
+    },
+    {
+      "name": "message_error_wechatStateCheckFailed",
+      "value": "WeChat authorization state verification failed, please retry"
+    },
+    {
+      "name": "message_error_wechatUnboundNeedPhone",
+      "value": "This WeChat is not bound to an account, please bind your phone number first"
+    },
+    {
+      "name": "message_error_wechatUnboundUsePhoneLogin",
+      "value": "This WeChat is not bound to an account, please log in with your phone number first and then bind WeChat in your profile"
+    },
+    {
+      "name": "message_error_wechatBindPhone",
+      "value": "Please bind your phone number before logging in"
+    },
+    {
+      "name": "message_error_wechatPhoneAuthRequired",
+      "value": "Phone number authorization is required to log in"
+    },
+    {
+      "name": "message_error_wechatPlatformUnsupported",
+      "value": "Platform account is not supported yet"
+    },
+    {
+      "name": "message_error_wechatPlatformNotConfigured",
+      "value": "Platform account is not configured"
+    },
+    {
+      "name": "message_error_wechatXcxCodeRequired",
+      "value": "Mini program login code cannot be empty"
+    },
+    {
+      "name": "message_error_wechatGetPhoneFailed",
+      "value": "Failed to get WeChat phone number"
+    },
+    {
+      "name": "message_error_wechatXcxConfigMissing",
+      "value": "Mini program configuration is missing"
+    },
+    {
+      "name": "message_error_wechatAccessTokenFailed",
+      "value": "Failed to get WeChat access_token"
+    },
+    {
+      "name": "message_error_wechatUnsupportedSource",
+      "value": "Unsupported third-party login type"
+    },
+    {
+      "name": "message_error_wechatInvalidAuthConfig",
+      "value": "No valid Auth configuration obtained"
+    },
+    {
+      "name": "message_error_socialParamRequired",
+      "value": "Third-party login parameters cannot be empty"
+    },
+    {
+      "name": "message_error_socialBoundUserNotFound",
+      "value": "Bound user not found"
+    },
+    {
+      "name": "message_error_socialAlreadyBound",
+      "value": "This third-party account is already bound"
+    },
+    {
+      "name": "message_error_unsupportedGrantType",
+      "value": "Unsupported grant type"
+    },
+    {
+      "name": "message_error_rsaKeyMissing",
+      "value": "RSA public key configuration is missing"
+    },
+    {
+      "name": "message_error_rsaEncryptFailed",
+      "value": "RSA encryption failed"
+    },
+    {
+      "name": "message_error_wechatNotEnabled",
+      "value": "WeChat login is not enabled"
+    },
+    {
+      "name": "message_error_phonePasswordRequired",
+      "value": "Phone number and password cannot be empty"
+    },
+    {
+      "name": "common_theme",
+      "value": "Theme"
+    },
+    {
+      "name": "common_theme_light",
+      "value": "Light"
+    },
+    {
+      "name": "common_theme_dark",
+      "value": "Dark"
+    },
+    {
+      "name": "common_theme_system",
+      "value": "System"
+    },
+    {
+      "name": "common_theme_toggle",
+      "value": "Switch theme"
+    },
+    {
+      "name": "auth_register_title",
+      "value": "Create Account"
+    },
+    {
+      "name": "auth_register_submit",
+      "value": "Sign up"
+    },
+    {
+      "name": "auth_register_submitting",
+      "value": "Signing up..."
+    },
+    {
+      "name": "auth_register_hasAccount",
+      "value": "Already have an account?"
+    },
+    {
+      "name": "auth_register_goLogin",
+      "value": "Log in →"
+    },
+    {
+      "name": "auth_register_phonePlaceholder",
+      "value": "Phone number (your username)"
+    },
+    {
+      "name": "auth_register_passwordPlaceholder",
+      "value": "Password (at least 6 characters)"
+    },
+    {
+      "name": "auth_register_confirmPasswordPlaceholder",
+      "value": "Confirm password"
+    },
+    {
+      "name": "auth_login_title",
+      "value": "Log in"
+    },
+    {
+      "name": "auth_login_tab_password",
+      "value": "Password login"
+    },
+    {
+      "name": "auth_login_tab_sms",
+      "value": "SMS login"
+    },
+    {
+      "name": "auth_login_submit",
+      "value": "Log in"
+    },
+    {
+      "name": "auth_login_submitting",
+      "value": "Logging in..."
+    },
+    {
+      "name": "auth_login_phonePlaceholder",
+      "value": "Please enter your phone number"
+    },
+    {
+      "name": "auth_login_passwordPlaceholder",
+      "value": "Please enter your password"
+    },
+    {
+      "name": "auth_login_smsCodePlaceholder",
+      "value": "SMS code"
+    },
+    {
+      "name": "auth_login_captchaPlaceholder",
+      "value": "Graphic captcha"
+    },
+    {
+      "name": "auth_login_noAccount",
+      "value": "Don't have an account yet?"
+    },
+    {
+      "name": "auth_login_goRegister",
+      "value": "Sign up now →"
+    },
+    {
+      "name": "auth_login_otherMethods",
+      "value": "Other login methods"
+    },
+    {
+      "name": "auth_wechat_login",
+      "value": "WeChat login"
+    },
+    {
+      "name": "auth_wechat_loggingIn",
+      "value": "Logging in with WeChat..."
+    },
+    {
+      "name": "auth_wechat_processing",
+      "value": "Processing WeChat login..."
+    },
+    {
+      "name": "auth_profile_title",
+      "value": "Profile"
+    },
+    {
+      "name": "auth_profile_sectionInfo",
+      "value": "Personal info"
+    },
+    {
+      "name": "auth_profile_avatarDesc",
+      "value": "User avatar"
+    },
+    {
+      "name": "auth_profile_editInfo",
+      "value": "Edit info"
+    },
+    {
+      "name": "auth_profile_changePassword",
+      "value": "Change password"
+    },
+    {
+      "name": "auth_profile_changeNickname",
+      "value": "Change nickname"
+    },
+    {
+      "name": "auth_profile_bindWechat",
+      "value": "Bind WeChat"
+    },
+    {
+      "name": "auth_profile_logout",
+      "value": "Log out"
+    },
+    {
+      "name": "auth_profile_logoutConfirm",
+      "value": "Are you sure you want to log out?"
+    },
+    {
+      "name": "auth_profile_nicknamePlaceholder",
+      "value": "Please enter your nickname"
+    },
+    {
+      "name": "auth_profile_emailPlaceholder",
+      "value": "Please enter your email"
+    },
+    {
+      "name": "auth_profile_birthdayPlaceholder",
+      "value": "Please select your birthday"
+    },
+    {
+      "name": "auth_profile_save",
+      "value": "Save"
+    },
+    {
+      "name": "auth_profile_saving",
+      "value": "Saving..."
+    },
+    {
+      "name": "auth_profile_submit",
+      "value": "Confirm changes"
+    },
+    {
+      "name": "auth_profile_submitting",
+      "value": "Submitting..."
+    },
+    {
+      "name": "auth_profile_sectionPreferences",
+      "value": "Preferences"
+    },
+    {
+      "name": "auth_profile_switchLanguage",
+      "value": "Language"
+    }
+  ]
+}
