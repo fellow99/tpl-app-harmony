@@ -6,6 +6,7 @@
 [![ArkTS](https://img.shields.io/badge/ArkTS-6.1.0-3178C6?logo=typescript)](./oh-package.json5)
 [![Hvigor](https://img.shields.io/badge/Hvigor-6.1-646CFF?logo=huawei)](./hvigor/hvigor-config.json5)
 [![Hypium](https://img.shields.io/badge/Hypium-1.0.25-8B0000?logo=junit5)](./oh-package.json5)
+[![License](https://img.shields.io/badge/license-MIT-blue)](./LICENSE)
 
 ---
 
@@ -312,4 +313,4 @@ Phase 3: 个人中心 (101-profile)
 
 ## License
 
-Proprietary. All rights reserved.
+本项目基于 [MIT License](./LICENSE) 开源。
